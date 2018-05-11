@@ -1,0 +1,67 @@
+/*STRT by LewdShawty||D4ndie*/
+
+@import url(font.css);
+
+body {
+    width: 100%;
+    margin: auto;
+    margin-top: 0px;
+    background:#BAB6C5;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+#main{
+    display: flex;
+    align-items: center;
+    margin:auto;
+    margin-top: 70px;
+    width: 1000px;
+}
+
+#stuff {
+    text-align: center;
+    margin: auto;
+    width: 75%;
+}
+
+#welcome{
+    color: #6D5B97;
+    font-family: valentine; 
+    font-size: 100px;
+}
+
+.search{
+    padding: 10px;
+    position: relative;
+    left: center;
+    border-bottom-style: 5px solid #6D5B97;
+   }
+
+#searchField{
+    width: 750px;
+    height: 50px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: 5px none #6D5B97;
+    border-left-style: none;
+    background: #BAB6C5;
+
+    font-size: 30px;
+}
+
+#clockbox{
+    position: absolute;
+    color: #6D5B97;
+    align-items: center;
+    bottom:15px;
+    
+    font-size: 20px
+}
+
+img {
+    position: fixed;
+    bottom: 15;
+    left: 75;
+    width: 410px;
+    z-index:-1;
+    }
