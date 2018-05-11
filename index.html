@@ -7,9 +7,7 @@
         <link rel="shortcut icon" type="image/x-icon" href="assets/add.png" />
     </head>
     <body>
-        <img src="assets/cute.png">
-
-        <div id="clockbox"></div>
+        <img src="assets/cuteWShad.png">
 
         <div id="main">
             <div id="stuff">
@@ -20,8 +18,11 @@
                         <input id="searchField" type="text" value="" placeholder="SRCH">
                     </form>
                 </div>
-            </div>
-        </div>
+            
+                <div id="clockbox"></div>
+
+            </div><!--end of 'stuff'-->
+        </div><!--end of 'main'-->
 
         <!--JS for DDG search -->
         <script type="text/javascript">
@@ -34,6 +35,7 @@
             }
         </script>
 
+        <!--JS for clock-->
         <script type="text/javascript">
             function GetClock(){
             var d=new Date();
@@ -41,7 +43,7 @@
             var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds();
             if(nmin<=9) nmin="0"+nmin
             if(nsec<=9) nsec="0"+nsec;
-            document.getElementById('clockbox').innerHTML=""+nyear+"."+ndate+"."+(nmonth+1)+"~&#9825;~"+nhour+":"+nmin+":"+nsec+"";
+            document.getElementById('clockbox').innerHTML=""+"&#12300;"+nyear+"-"+(nmonth+1)+"-"+ndate+"&#12301;"+"~`&#4326;&#180;~"+"&#12300;"+nhour+":"+nmin+":"+nsec+"&#12301;";
             }
             window.onload=function(){
             GetClock();
