@@ -43,7 +43,7 @@
             var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds();
             if(nmin<=9) nmin="0"+nmin
             if(nsec<=9) nsec="0"+nsec;
-            document.getElementById('clockbox').innerHTML=""+"&#12300;"+nyear+"-"+(nmonth+1)+"-"+ndate+"&#12301;"+"~`&#4326;&#180;~"+"&#12300;"+nhour+":"+nmin+":"+nsec+"&#12301;";
+            document.getElementById('clockbox').innerHTML=""+"&#12300;"+nyear+"."+(nmonth+1)+"."+ndate+"&#12301;"+"~`&#4326;&#180;~"+"&#12300;"+nhour+":"+nmin+"&#12301;";
             }
             window.onload=function(){
             GetClock();
