@@ -36,21 +36,20 @@ body {
     padding: 10px;
     position: relative;
     left: center;
-    border-bottom-style: 5px solid #6D5B97;
 }
 
 #searchField{
-    width: 750px;
-    height: 50px;
-    border-top-style: none;
-    border-right-style: none;
-    border-bottom-style: 5px none #6D5B97;
-    border-left-style: none;
+    width: 500px;
+    height: 45px;
+    border: none;
+    border-bottom: 2px solid #6D5B97;
     background: #BAB6C5;
 
     font-size: 30px;
     font-family: NoSugar;
     font-weight: bolder;
+    text-align: center;
+    color: #7981A8;
 }
 
 #clockbox{
@@ -66,10 +65,10 @@ body {
     text-align: center;
 }
 
-img {
-    position: fixed;
+img.cute {
+    position: absolute;
     bottom: 15;
-    left: 75;
+    left: 70;
     width: 410px;
     z-index:-1;
 }
